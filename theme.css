@@ -9,8 +9,8 @@
  /**
   * Input
   */
- @define-color selected_bg_color #b5804a;
- @define-color selected_fg_color #ffebd6;
+ @define-color selected_bg_color #2f7074;
+ @define-color selected_fg_color #d6fdff;
  @define-color input_color #ddd;
  @define-color caret_color darker(@input_color);
  
@@ -19,12 +19,12 @@
   */
  @define-color item_name #ddd;
  @define-color item_text #999;
- @define-color item_box_selected #ff8000;
- @define-color item_text_selected #ffcc99;
+ @define-color item_box_selected #0099a1;
+ @define-color item_text_selected #99faff;
  @define-color item_name_selected #eee;
  @define-color item_shortcut_color #777;
  @define-color item_shortcut_shadow darker(@bg_color);
- @define-color item_shortcut_color_sel #ffcc99;
+ @define-color item_shortcut_color_sel #99faff;
  @define-color item_shortcut_shadow_sel darker(@item_box_selected);
 
 .app {
